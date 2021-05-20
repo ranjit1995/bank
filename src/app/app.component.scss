@@ -1,0 +1,263 @@
+.blueBg {
+    background: #ffff !important;
+}
+::ng-deep .mat-toolbar-row,
+.mat-toolbar-single-row {
+    width: 100% !important;
+    padding: 0% !important;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+::ng-deep .mat-toolbar-multiple-rows {
+    min-height: 60px;
+}
+
+.bwrap {
+    padding-top: 54px !important;
+}
+.bodyGap {
+    min-height: 10vh;
+}
+.img {
+    opacity: 0.7;
+    background-color: #cccccc;
+    width: 100%;
+    .navbar {
+        background: #ffff !important;
+        padding-bottom: 0px;
+        .collapse {
+            .navbar-text {
+                .btn {
+                    width: 130px;
+                    // box-shadow: 0px 0px 20px #00000033;
+                    border: 1px solid #663399;
+                    border-radius: 24px;
+                    color: #663399;
+                    &:hover {
+                        background: transparent linear-gradient(90deg, #9f62c9 0%, #663399 100%) 0% 0% no-repeat
+                            padding-box;
+                        border-radius: 24px;
+                        opacity: 1;
+                        color: white;
+                    }
+                }
+            }
+            .mr-40 {
+                margin-right: 30px;
+            }
+        }
+        ul {
+            li {
+                a {
+                    text-align: left;
+                    font: normal normal normal 15px/34px Open Sans;
+                    letter-spacing: 0px;
+                    color: #222222;
+                    opacity: 1;
+                }
+            }
+        }
+        .navbar-brand {
+            img {
+                width: 45px;
+            }
+        }
+    }
+}
+.example-card {
+    max-width: 400px;
+    margin-top: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    img {
+        width: 70px;
+        padding: 10px;
+    }
+    &:hover {
+        background: transparent url("../assets/assignment-img/Rectangle\ 2.svg") 0% 0% no-repeat padding-box;
+        background-size: 150% 164%;
+        background-position: 50% 50%;
+    }
+}
+
+.head-text {
+    font-size: 14px;
+    font-weight: 500;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 25%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row {
+    margin: 0px !important;
+}
+.bg-img {
+    background-image: url("../assets/assignment-img/sol_wave_bg.svg");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-r {
+    min-width: 130px;
+    // box-shadow: 0px 0px 20px #00000033;
+    border: 1px solid #663399;
+    border-radius: 24px;
+    color: #663399;
+    &:hover {
+        background: transparent linear-gradient(90deg, #9f62c9 0%, #663399 100%) 0% 0% no-repeat padding-box;
+        border-radius: 24px;
+        opacity: 1;
+        color: white;
+    }
+}
+.center {
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.medilecolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.leftcolumn-60 {
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+    margin-top: auto;
+    .eligibility-card {
+        padding: 0px;
+        border-radius: 20px;
+        .head-text {
+            background: #efefef;
+            padding: 20px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        .example-margin {
+            width: 100%;
+        }
+        p {
+            padding: 15px;
+        }
+        .carency {
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+}
+.pd-15 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-bottom: 15px !important;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.mt-10 {
+    margin-top: 10px !important;
+    margin-left: 60px !important;
+}
+.simple-card {
+    background: transparent url("../assets/assignment-img/collect_img-video/collect_img-video.png") 0% 0% no-repeat
+        padding-box;
+    background-size: 220% 170%;
+    background-position: 71% 50%;
+    max-width: 400px !important;
+}
+.rightcolumn-40 {
+    float: left;
+    width: 50%;
+    margin-top: auto;
+    padding: 0px;
+    margin-bottom: auto;
+    .example-card-1 {
+        background: transparent url("../assets/assignment-img/Rectangle\ 2.svg") 0% 0% no-repeat padding-box;
+        background-size: 340% 168%;
+        background-position: 80% 36%;
+        max-width: 160px !important;
+        padding-top: 70px !important;
+        padding-bottom: 70px !important;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .carency {
+        color: white;
+    }
+    .text-gray {
+        color: lightgray;
+    }
+}
+a {
+    color: #222222;
+}
+::ng-deep .mat-accent .mat-slider-track-fill {
+    background: #663399 !important;
+}
+::ng-deep .mat-accent .mat-slider-thumb,
+.mat-accent .mat-slider-thumb-label,
+.mat-accent .mat-slider-track-fill {
+    background-color: #663399;
+}
+.mat-form-field {
+    width: 100%;
+}
+
+.width-300 {
+    width: 100%;
+    margin: auto;
+    padding-top: 153px;
+    padding-left: 40px;
+    margin-bottom: auto;
+}
+.text-pd {
+    width: 30%;
+    margin-bottom: 10px;
+}
+.bg-small {
+    background: transparent url("../assets/assignment-img/blob-small.svg") 0% 0% no-repeat padding-box;
+    background-size: 270% 81%;
+    background-position: 75% 40%;
+    min-width: 150px !important;
+    height: 100%;
+}
+.bg-large {
+    background: transparent url("../assets/assignment-img/circle.svg") 0% 0% no-repeat padding-box;
+    background-size: 270% 81%;
+    background-position: 75% 40%;
+    min-width: 150px !important;
+    height: 100%;
+}
+.mb-20 {
+    margin-bottom: 20px !important;
+}
