@@ -19,14 +19,17 @@ export class AppComponent implements OnInit {
     window.onscroll = function () { myFunction() };
 
     function myFunction() {
-      var navbar: any = document.getElementsByClassName("mb-20");
-      var sticky = navbar.offsetTop;
 
-      // Get the offset position of the navbar
-      console.log(window.pageYOffset >= sticky)
-      console.log(sticky)
-      that.scroll = true
+      console.log(window.pageYOffset)
+      if(window.pageYOffset>0){
+        that.scroll = true
+      }else{
+        that.scroll = false
+
+      }
     }
   }
-
+  myFunction() {
+    console.log("SCROLL IS CALLED")
+  }
 }

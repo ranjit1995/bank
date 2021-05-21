@@ -12,11 +12,9 @@
 }
 
 .bwrap {
-    padding-top: 54px !important;
+    // padding-top: 54px !important;
 }
-.bodyGap {
-    min-height: 10vh;
-}
+
 .getMoney-btn {
     background: white;
     border-radius: 20px;
@@ -30,7 +28,6 @@
     border: 0px;
 }
 .img {
-    opacity: 0.7;
     background-color: #cccccc;
     width: 100%;
     .navbar {
@@ -78,7 +75,7 @@
 .example-card {
     max-width: 400px;
     margin-top: 10px;
-    padding: 30px;
+    padding-bottom: 30px;
     border-radius: 20px;
     img {
         width: 70px;
@@ -166,7 +163,7 @@
     float: left;
     width: 50%;
     padding-left: 20px;
-    margin-top: auto;
+    margin-top: 100px;
     .eligibility-card {
         padding: 0px;
         border-radius: 20px;
@@ -215,13 +212,15 @@
     margin-bottom: auto;
     .example-card-1 {
         background: transparent url("../assets/assignment-img/Rectangle\ 2.svg") 0% 0% no-repeat padding-box;
-        background-size: 340% 168%;
-        background-position: 80% 36%;
+        background-size: 380% 168%;
+        background-position: 67% 36%;
         max-width: 160px !important;
-        padding-top: 70px !important;
-        padding-bottom: 70px !important;
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
         border-bottom-right-radius: 20px;
         border-top-right-radius: 20px;
+        height: 100%;
+        margin-top: 100px;
     }
     .carency {
         color: white;
@@ -256,20 +255,41 @@ a {
     width: 30%;
     margin-bottom: 10px;
 }
+.right {
+    float: right;
+}
 .bg-small {
     background: transparent url("../assets/assignment-img/blob-small.svg") 0% 0% no-repeat padding-box;
-    background-size: 270% 81%;
-    background-position: 75% 40%;
+    background-size: 400% 70%;
+    background-position: 65% 56%;
     min-width: 150px !important;
     height: 100%;
 }
 .bg-large {
     background: transparent url("../assets/assignment-img/circle.svg") 0% 0% no-repeat padding-box;
-    background-size: 270% 81%;
-    background-position: 75% 40%;
+    background-size: 392% 125%;
+    background-position: 48% 90%;
     min-width: 150px !important;
     height: 100%;
 }
+.pd-0 {
+    padding: 0px !important;
+}
 .mb-20 {
     margin-bottom: 20px !important;
+}
+.striky {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.opacity-1 {
+    opacity: 1;
+    .navbar {
+        box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%),
+            0px 1px 3px 0px rgb(0 0 0 / 12%);
+    }
+}
+.opacity-5 {
+    opacity: 0.5;
 }
