@@ -17,7 +17,7 @@
     font-size: 12px;
     margin-top: 10px;
 }
-.labelBeforeSlide{
+.labelBeforeSlide {
     font-size: 11px;
 }
 .gstBtn {
@@ -32,6 +32,9 @@
         background: #ffff !important;
         padding-bottom: 0px;
         .collapse {
+            ul > li > a {
+                cursor: pointer;
+            }
             .navbar-text {
                 .btn {
                     width: 130px;
@@ -83,6 +86,7 @@
         background: transparent url("../assets/assignment-img/Rectangle_2.svg") 0% 0% no-repeat padding-box;
         background-size: 150% 164%;
         background-position: 50% 50%;
+        cursor: pointer;
     }
 }
 
